@@ -99,7 +99,8 @@ function checkcpass(){
         localStorage.setItem("fullname",fullname.value)
         localStorage.setItem("password",pass.value)
         localStorage.setItem("email",email.value)
-        localStorage.setItem("gender"+index,gender.value)
+        localStorage.setItem("gender" ,gender.value)
+        open("login.html","_parent")
     }
    
   }
